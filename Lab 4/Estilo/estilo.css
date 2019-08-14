@@ -1,0 +1,76 @@
+body{
+    font-size: 15px;
+    /*Agregamos una imagen de fondo*/    
+    background-image: url("../Img/fondo.jpg");
+    /*Colocamos fija la imagen*/
+    background-repeat: no-repeat;
+    /*Ocupando toda la pantalla*/
+    background-size: 100%; 
+    background-attachment: fixed;
+}
+.b1{
+    border: 10px dotted #000000;
+    background-image: url(../Img/Papel1.jpeg);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+    width: 25%;
+    padding: 10px;
+    margin: 10px;
+    left: 5%;
+    position: absolute;
+}
+.b2{
+    border: 10px double #000000;
+    border-radius: 25px;
+    background: #129acf;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    left: 60%;
+    top: 0;
+    /*Nos permite dejar pegada la caja*/
+    position: -webkit-sticky;
+    position: sticky;
+
+}
+.b3{
+    border: 10px groove #0aa00a;
+    background: #7bc47b;
+    font-family: Century Gothic, sans-serif;
+    text-align: right;
+    width: 15%;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    z-index: 3;
+}
+.b4{
+    border: 10px ridge #000000;
+    background: #df6d10;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    z-index: 3;
+}
+.b5{
+    border: 10px inset #c57ae2;
+    background-image: url(../Img/Papel2.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-style: italic;
+    font-size: 20px;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    z-index: 3;
+}
+/*Primero debemos entrar a la clase y luego al article para 
+poderle dar propiedades unicamente a esa parte del cuadro*/
+.b5 article{
+    font-weight: bold;
+}
+footer{
+    color: #ffffff;
+}
